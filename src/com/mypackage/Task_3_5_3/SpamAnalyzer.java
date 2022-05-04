@@ -10,19 +10,14 @@ public class SpamAnalyzer extends KeywordAnalyzer{
             keywords[i] = args[i];
     }
 
-    public String[] getKeywords(){
+    @Override
+    protected String[] getKeywords(){
         return keywords;
     }
 
-    public Label getLabel(){
-        return Label.NEGATIVE_TEXT;
+    @Override
+    protected Label getLabel(){
+        return Label.SPAM;
     }
 
-    @Override
-    public Label processText(String text) {
-        for(String str : keywords)
-            if (text.contains(str))
-                return Label.SPAM;
-        return Label.OK;
-    }
 }
