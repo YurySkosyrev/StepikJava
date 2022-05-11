@@ -1,11 +1,11 @@
-package com.mypackage;
+package org.Stepik.Task_4_3_1;
 
 import java.util.logging.ConsoleHandler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.logging.XMLFormatter;
 
-public class Tasks {
+public class LoggerTask {
 
     // Step 4.3.1
     private static void configureLogging() {

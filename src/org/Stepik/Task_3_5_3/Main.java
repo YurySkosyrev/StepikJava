@@ -1,5 +1,4 @@
-package com.mypackage;
-import com.mypackage.Task_3_5_3.*;
+package org.Stepik.Task_3_5_3;
 
 import java.util.Scanner;
 public class Main {

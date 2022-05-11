@@ -1,4 +1,4 @@
-package com.mypackage.Task_3_5_3;
+package org.Stepik.Task_3_5_3;
 
 public abstract class KeywordAnalyzer implements TextAnalyzer {
 
