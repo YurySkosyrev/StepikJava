@@ -1,4 +1,4 @@
-package org.Stepik.Task_4_3_1;
+package org.Stepik.Task431;
 
 import java.util.logging.ConsoleHandler;
 import java.util.logging.Level;

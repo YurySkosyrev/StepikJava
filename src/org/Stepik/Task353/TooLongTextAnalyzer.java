@@ -1,4 +1,4 @@
-package org.Stepik.Task_3_5_3;
+package org.Stepik.Task353;
 
 public class TooLongTextAnalyzer implements TextAnalyzer{
 

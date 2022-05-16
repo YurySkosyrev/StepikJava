@@ -1,6 +1,5 @@
-package org.Stepik.Task_3_5_3;
+package org.Stepik.Task353;
 
-import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         String[] spamKeywords = {"spam", "bad"};
