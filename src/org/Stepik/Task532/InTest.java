@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 import java.io.Reader;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
+import java.util.Optional;
 
 public class InTest {
     public static void main(String[] args) throws Exception{
@@ -24,4 +25,15 @@ public class InTest {
         return sb.toString();
 
     }
+
+//    public class Example<X> {
+//        public void someMethod(Object obj) {
+//            Optional<X> x = Optional.empty();
+//            X x1 = (X)obj;
+//            X[] x2 = new X[10];
+//            boolean f = obj instanceof X;
+//            X x4 = new X();
+//            boolean i = obj instanceof Optional<X>;
+//        }
+//    }
 }
